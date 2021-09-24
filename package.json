@@ -1,7 +1,7 @@
 {
   "name": "@styless-ui/js",
   "version": "1.0.0",
-  "description": "Zero Built-in Style JS UI Library.",
+  "description": "Zero Built-in Style UI JS Library.",
   "private": true,
   "license": "MIT",
   "repository": {
@@ -24,10 +24,10 @@
     "watch:dropdown": "npm run watch --workspace packages/dropdown",
     "watch:modal": "npm run watch --workspace packages/modal",
     "lint": "run-s lint:prettier lint:eslint",
-    "lint:prettier": "prettier --check \"packages/**/*.{ts}\"",
+    "lint:prettier": "prettier --check \"packages/**/*.ts\"",
     "lint:eslint": "eslint --ext .ts packages",
     "fix": "run-s fix:prettier fix:eslint",
-    "fix:prettier": "prettier --write \"packages/**/*.{ts}\"",
+    "fix:prettier": "prettier --write \"packages/**/*.ts\"",
     "fix:eslint": "eslint --ext .ts --fix packages"
   },
   "workspaces": [
@@ -37,17 +37,17 @@
     "@styless-ui/doropdown": "file:packages/dropdown",
     "@styless-ui/modal": "file:packages/modal",
     "@types/webpack": "^5.28.0",
-    "@typescript-eslint/eslint-plugin": "^4.31.0",
-    "@typescript-eslint/parser": "^4.31.0",
+    "@typescript-eslint/eslint-plugin": "^4.31.2",
+    "@typescript-eslint/parser": "^4.31.2",
     "eslint-config-prettier": "^8.3.0",
     "html-webpack-plugin": "^5.3.2",
     "microbundle": "^0.13.3",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.4.0",
-    "ts-loader": "^9.2.5",
+    "prettier": "^2.4.1",
+    "ts-loader": "^9.2.6",
     "typescript": "^4.4.3",
-    "webpack": "^5.52.1",
+    "webpack": "^5.53.0",
     "webpack-cli": "^4.8.0",
-    "webpack-dev-server": "^4.2.0"
+    "webpack-dev-server": "^4.2.1"
   }
 }
