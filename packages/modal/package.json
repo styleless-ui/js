@@ -1,0 +1,39 @@
+{
+  "name": "@styless-ui/modal",
+  "version": "1.0.0",
+  "description": "Zero Built-in Style js JS Library.",
+  "license": "MIT",
+  "keywords": [
+    "styless-ui",
+    "typescript",
+    "modal",
+    "dialog"
+  ],
+  "source": "src/index.ts",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.module.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://ohnaka0410@github.com/styless-ui/js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/styless-ui/js/issues"
+  },
+  "homepage": "https://github.com/styless-ui/js#readme",
+  "author": {
+    "name": "yuki0410",
+    "url": "https://twitter.com/yuki0410_"
+  },
+  "scripts": {
+    "build": "microbundle --format esm,cjs --sourcemap false",
+    "watch": "microbundle --format esm,cjs --watch"
+  },
+  "dependencies": {
+    "body-scroll-lock": "^3.1.5",
+    "focus-trap": "^6.6.1"
+  },
+  "devDependencies": {
+    "@types/body-scroll-lock": "^3.1.0"
+  }
+}
